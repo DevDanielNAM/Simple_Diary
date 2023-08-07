@@ -1,0 +1,105 @@
+:root {
+  --Gothic: "Nanum Gothic", sans-serif;
+  --Myeongjo: "Nanum Myeongjo", serif;
+}
+
+/* App */
+
+.App {
+  font-family: var(--Gothic);
+}
+
+/* Editor */
+
+.DiaryEditor {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+.DiaryEditor input,
+textarea {
+  width: 90%;
+  margin-bottom: 1.25em;
+  font-family: var(--Myeongjo);
+  font-size: medium;
+  padding: 0.625em;
+}
+
+.DiaryEditor textarea {
+  height: 15em;
+}
+
+.DiaryEditor select {
+  width: 25%;
+  height: 3em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.DiaryEditor button {
+  width: 95%;
+  height: 3em;
+  background-color: beige;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: var(--Gothic);
+  font-size: medium;
+}
+
+.DiaryEditor button:hover {
+  font-weight: bold;
+}
+
+/* List  */
+
+.DiaryList {
+  border: 1px solid gray;
+  padding: 1.25em;
+  margin-top: 1.25em;
+}
+
+.DiaryList h2 {
+  text-align: center;
+}
+
+/* ITEM */
+
+.DiaryItem {
+  background-color: rgb(240, 240, 240);
+  margin-bottom: 0.625em;
+  padding: 1.25em;
+  font-family: var(--Myeongjo);
+}
+
+.DiaryItem span {
+  margin-right: 0.625em;
+}
+
+.DiaryItem .info {
+  border-bottom: 1px solid gray;
+  padding-bottom: 0.625em;
+  margin-bottom: 0.625em;
+}
+.DiaryItem .date {
+  color: gray;
+}
+
+.DiaryItem .content {
+  margin-bottom: 2em;
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+.DiaryItem textarea {
+  padding: 0.625em;
+  width: 95%;
+}
+
+.DiaryItem button {
+  margin-right: 0.5em;
+  cursor: pointer;
+}
